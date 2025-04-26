@@ -17,16 +17,16 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [] List anything else that you can get done to improve the app functionality!
+* A toggle button to display or hide the statistics.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/gallery/codepath-web-102-prework-ShbkNye' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/QAYN8rB.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with windows screen recoreder  
+GIF created with windows screen recoreder and Adobe Express.
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows

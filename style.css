@@ -78,3 +78,6 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+.stats-hider{
+    display: none;
+}

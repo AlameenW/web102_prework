@@ -165,11 +165,9 @@ const secondGameContainer = document.getElementById("second-game");
 const sortedGames = GAMES_JSON.sort((item1, item2) => {
   return item2.pledged - item1.pledged;
 });
-console.log(sortedGames);
 
 // use destructuring and the spread operator to grab the first and second games
 const [firstGame, secondGame, ...others] = sortedGames;
-console.log(firstGame, secondGame);
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const displayedFirstGame = document.createElement("div");
 displayedFirstGame.innerHTML = `${firstGame.name}`;
@@ -178,3 +176,16 @@ firstGameContainer.appendChild(displayedFirstGame);
 const displayedSecondGame = document.createElement("div");
 displayedSecondGame.innerHTML = `${secondGame.name}`;
 secondGameContainer.appendChild(displayedSecondGame);
+
+//Additional stats-display-button to control if stats should be visible or not.
+const statsDisplayBtn = document.getElementById("display-stats");
+const statsCont = document.getElementById("stats-cont")
+statsDisplayBtn.addEventListener('click', (e) => {
+    const statClassList = [...statsCont.classList];
+    if(statClassList.includes("stats-hider")){
+      statsCont.classList.remove("stats-hider")
+    }
+    else{
+      statsCont.classList.add("stats-hider")
+    }
+});
